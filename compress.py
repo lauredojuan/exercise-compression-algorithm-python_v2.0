@@ -9,7 +9,7 @@ symbols = {}
 #     "practicality": '🤩',
 #     "better": '😅',
 #     "than": '😘',
-#     "Although": "🥺"
+#     "Although": "🥺",
 # }
 
 def load_symbols():
@@ -22,12 +22,6 @@ def load_symbols():
   except:
     open("symbols.csv", "w+")
     load_symbols()
-    
-    # estrategy: loop the string to check if a word is repeated more than one time. if so add that word as a key to the a dictionary inside symbols.csv and asign a new emogy as value:
-    #Return the number of times the value "apple" appears in the string:
-#     txt = "I love apples, apple are my favorite fruit"
-#     x = txt.count("apple")
-#     print(x)
 
 def compress(content):
     load_symbols()
