@@ -1,0 +1,14 @@
+{
+	"slug" : "compression-algorithm-python",
+	"title" : "Compression Algorithm w/Python",
+	"description": "Building a Compression Algorithm using Python and Emojis",
+	"preview": "https://raw.githubusercontent.com/breatheco-de/exercise-compression-algorithm-python/master/preview.png",
+	"solution": "https://github.com/breatheco-de/exercise-compression-algorithm-python/tree/solution",
+	"status": "published",
+	"duration" : 4,
+	"difficulty": "beginner",
+	"technologies": ["python", "terminal", "command line", "compression", "arrays"],
+	"talents": [
+		{ "badge": "identator", "points": 10 }
+	]
+}
